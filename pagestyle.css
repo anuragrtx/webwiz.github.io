@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: 80px 200px;
+    background: url(bg7.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    padding: 15px;
+    font-size: 16px;
+}
+.background {
+    background-color: rgb(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .5);
+    
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: black;
+}
+input[type="text"],
+input[type="email"],
+input[type="institute roll number"],
+input[type="phone number"],
+input[type="branch"],
+textarea {
+    margin: 10px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #161e8acc;
+    border-radius: 5px;
+    
+}
+.main-heading {
+    text-align: center;
+    font-size: 250%;
+    color: #64bcdf;
+    
+    
+}
+#button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+#button:hover {
+    background: linear-gradient(#611780,#110b77);
+    box-shadow: 0 0 5px #4ab6e1, 
+    0 0 25px #3ba3cc, 0 0 50px #4ab6e1,
+    0 0 150px #4ab6e1;
+}
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-track{
+    background: #230e52;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#7f349f,#22204d);
+    border-radius: 10px;
+    
+}
+
